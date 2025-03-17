@@ -1,2 +1,2 @@
-# essays
-Repository for longer form writing, experiments and visual photo essays
+# Essays 
+A repository for longer form writing, experiments and visual photo essays.
