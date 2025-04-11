@@ -391,3 +391,11 @@ p.lead {
     background-position: -200% 0;
   }
 }
+
+.mobile-menu {
+  display: none; /* Hide by default */
+}
+
+.mobile-menu.active {
+  display: block; /* Show when active */
+}

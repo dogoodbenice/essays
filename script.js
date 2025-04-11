@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
   // Initialize parallax effect
   const parallaxImages = document.querySelectorAll('.parallax-image');
@@ -68,8 +67,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Mobile menu toggle
   const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobileMenu'); // Ensure this ID matches your HTML
+
   if (mobileMenuBtn) {
-    // Mobile menu functionality would go here
-    // This is a placeholder for actual implementation
+    mobileMenuBtn.addEventListener('click', function() {
+      mobileMenu.classList.toggle('active'); // Toggle the active class
+    });
   }
 });
